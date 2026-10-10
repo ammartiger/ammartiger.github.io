@@ -573,8 +573,11 @@ small {
   border-radius: 4px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.18);
   transition: transform 0.2s, box-shadow 0.2s;
-  max-height: 280px;
+  height: 260px;
   width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
   margin: 0 auto;
 }
 
