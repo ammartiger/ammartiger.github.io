@@ -552,6 +552,68 @@ small {
   display: none;
 }
 
+/* Publications section */
+.publications-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.publication-item {
+  border-bottom: 1px solid #eee;
+  padding: 16px 0;
+  margin-left: 0 !important;
+  list-style-type: none !important;
+  line-height: normal !important;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.publication-year {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.publication-type {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1px solid currentColor;
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+
+.publication-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 4px !important;
+  padding: 0 !important;
+}
+
+.publication-title a {
+  color: #008073 !important;
+  border-bottom: 2px solid transparent !important;
+}
+
+.publication-title a:hover {
+  border-bottom: 2px solid #008073 !important;
+}
+
+.publication-venue {
+  font-size: 0.88rem;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .grey-text {
   color: #666 !important;
 }
