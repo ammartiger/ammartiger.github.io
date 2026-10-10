@@ -486,6 +486,12 @@ a.hoverline:hover {
   padding-bottom: 20px;
 }
 
+#skills .card .row.text-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
 #skills .col img.responsive-img {
   display: block;
   margin: 0 auto;
